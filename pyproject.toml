@@ -1,0 +1,13 @@
+[project]
+name = "rag-python-cookbook"
+version = "0.1.0"
+description = "RAG with Python Cookbook"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "chromadb>=1.5.9",
+    "httpx>=0.28.1",
+    "marimo>=0.23.6",
+    "openai>=2.36.0",
+    "python-dotenv>=1.2.2",
+]
